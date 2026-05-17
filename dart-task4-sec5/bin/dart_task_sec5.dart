@@ -50,7 +50,7 @@ class Developer extends Employee implements Skills {
 }
 
 void main() {
-  Developer dev = Developer("Betty", 22, 15000, "Dart");
+  Developer dev = Developer("Steven", 22, 15000, "Dart");
 
   dev.showInfo();
   dev.programming();
